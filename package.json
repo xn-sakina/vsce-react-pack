@@ -1,0 +1,71 @@
+{
+  "name": "sakina-react-pack",
+  "displayName": "Sakina React extension Pack",
+  "description": "Extension packs for react projects.",
+  "version": "1.0.0",
+  "publisher": "fz6m",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xn-sakina/vsce-react-pack"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "build:test": "tsc",
+    "test": "pnpm build:test && vscode-test"
+  },
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "clinyong.vscode-css-modules",
+    "mikestead.dotenv",
+    "EditorConfig.EditorConfig",
+    "Tobermory.es6-string-html",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "drKnoxy.eslint-disable-snippets",
+    "mkxml.vscode-filesize",
+    "oliversturm.fix-json",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "vincaslt.highlight-matching-tag",
+    "ecmel.vscode-html-css",
+    "kisstkondoros.vscode-gutter-preview",
+    "wix.vscode-import-cost",
+    "whtouche.vscode-js-console-utils",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-preview-github-styles",
+    "unifiedjs.vscode-mdx",
+    "christian-kohler.npm-intellisense",
+    "techer.open-in-browser",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "iceworks-team.iceworks-style-helper",
+    "mrmlnc.vscode-scss",
+    "jock.svg",
+    "SimonSiefke.svg-preview",
+    "BriteSnow.vscode-toggle-quotes",
+    "pflannery.vscode-versionlens",
+    "styled-components.vscode-styled-components",
+    "redhat.vscode-xml"
+  ],
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.16",
+    "@types/vscode": "^1.86.0",
+    "@vscode/test-cli": "^0.0.5",
+    "@vscode/test-electron": "^2.3.9",
+    "@vscode/vsce": "^2.23.0",
+    "@xn-sakina/mental": "^4.2.1",
+    "lodash": "^4.17.21",
+    "mocha": "^10.2.0",
+    "typescript": "^5.3.3"
+  }
+}
